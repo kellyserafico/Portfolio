@@ -91,26 +91,29 @@
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    border-style:solid;
-    border-color:red;
+    /* border-style:solid; */
+    /* border-color:red; */
     
 }
     
 .div1 { 
-    grid-area: 1 / 2 / 4 / 3; 
-    border-style:solid;
-    border-color:purple;
-    
+    grid-area: 1 / 2 / 2 / 5; 
+    /* border-style:solid; */
+    /* border-color:purple; */
+    background-color: lavender;
+    border-radius: 5%;
 
 }
 .div2 { 
-    grid-area: 1 / 4 / 4 / 5; 
-    border-style:solid;
-    border-color:purple;
+    grid-area: 1 / 6 / 2 / 9; 
+    /* border-style:solid; */
+    /* border-color:purple; */
+    background-color: lavender;
+    border-radius: 5%;
 }
 
 .cellHeader{
@@ -121,13 +124,12 @@
 .item{
     display:inline-flex;
     /* position:relative; */
-    
 }
 .itemImage{
-    display:flex;
+    /* display:flex; */
     width:3rem;
     padding:1rem;
 }
-#itemsList{
-    width: 0px;
+.itemsList{
+    width: 5px;
 }
