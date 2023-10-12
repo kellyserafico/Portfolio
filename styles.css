@@ -24,8 +24,8 @@
     /* border-style: solid; */
 }
 #contactButtonText{
-    font-family: "Press Start 2P";
-    font-size: 20px;
+    font-family: "Courier";
+    font-size: 1.5rem;
 }
 
 #name{
@@ -36,33 +36,41 @@
     padding-bottom: 3.5rem;
 }
 #about{
-    padding-left:10%;
-    padding-right: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    
   
 }
 #aboutHeader{
     text-align: center;
-    font-size: 2rem;
-    font-family: "Press Start 2P";
-    
+    font-size: 2em;
+    /* font-family: "Press Start 2P"; */
+    font-family: "Courier";
+    width: fit-content;
 }
 #aboutDescription{
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     font-size:1.25rem;
     font-family: "Ariel";
 
 }
 
+#aboutHeaderDiv{
+    width:fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-
-.typewriter h2 {
+.typewriter h2{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid lavender; /* The typwriter cursor */
+    border-right: .15em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: normal; /* Adjust as needed */
     animation: 
-      typing 3s steps(40, end),
+      typing 4s steps(40, end),
       blink-caret .75s step-end infinite;
   }
   
@@ -75,5 +83,51 @@
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: lavender; }
+    50% { border-color: black; }
   }
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-style:solid;
+    border-color:red;
+    
+}
+    
+.div1 { 
+    grid-area: 1 / 2 / 4 / 3; 
+    border-style:solid;
+    border-color:purple;
+    
+
+}
+.div2 { 
+    grid-area: 1 / 4 / 4 / 5; 
+    border-style:solid;
+    border-color:purple;
+}
+
+.cellHeader{
+    text-align:center;
+
+}
+
+.item{
+    display:inline-flex;
+    /* position:relative; */
+    
+}
+.itemImage{
+    display:flex;
+    width:3rem;
+    padding:1rem;
+}
+#itemsList{
+    width: 0px;
+}
