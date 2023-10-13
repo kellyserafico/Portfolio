@@ -1,3 +1,12 @@
+nav{
+    background-color: white;
+    position:fixed;
+    top: 0;
+    width:100%;
+    box-shadow: 0px 0px 5px #999890;
+}
+
+
 #name{
     text-align: center;
 }
@@ -5,8 +14,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* clip-path: circle();
-    width: 15%; */
     object-fit: cover;
     border-radius: 100%;
     width: 200px;
@@ -19,7 +26,7 @@
     cursor: pointer;
     /* padding: 0px 30px; */
     padding: 0rem 3.2rem;
-    border-color: lavender;
+    border-color: #e47e5e;
     border-width: 5px;
     /* border-style: solid; */
 }
@@ -33,12 +40,14 @@
     font-family: "Rock Salt";
 }
 #topDiv{
-    padding-bottom: 3.5rem;
+    padding: 3.5rem;
+    /* background-color: #d2e3ec; */
 }
 #about{
     margin-right: auto;
     margin-left: auto;
     width: fit-content;
+    background-color: #d2e3ec;
     
   
 }
@@ -48,12 +57,15 @@
     /* font-family: "Press Start 2P"; */
     font-family: "Courier";
     width: fit-content;
+    display:flexbox;
 }
 #aboutDescription{
-    margin-right: auto;
-    margin-left: auto;
-    font-size:1.25rem;
-    font-family: "Ariel";
+    /* margin-right: auto;
+    margin-left: auto; */
+    text-align:center;
+    font-size:1rem;
+    font-family: 'Roboto Mono', monospace;
+
 
 }
 
@@ -90,44 +102,79 @@
 
 
 .parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    border-style:solid;
-    border-color:red;
     
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    column-gap: 50px;
+    /* border-style:solid; */
+    text-align: center;
+    width:fit-content;
+    flex-wrap:wrap;
 }
-    
-.div1 { 
-    grid-area: 1 / 2 / 4 / 3; 
-    border-style:solid;
-    border-color:purple;
-    
 
-}
-.div2 { 
-    grid-area: 1 / 4 / 4 / 5; 
-    border-style:solid;
-    border-color:purple;
+
+.cell { 
+    background-color: white;
+    border-radius: 5%;
+    display: inline-flex;
+    width: 350px;
+    min-width: fit-content;
+    flex-direction: column;
+    box-shadow: 10px 10px #71807d;
 }
 
 .cellHeader{
     text-align:center;
-
+    font-family: 'Orbitron', sans-serif;
+    font-weight:10px;
 }
 
 .item{
-    display:inline-flex;
-    /* position:relative; */
-    
+    display:grid;
+    grid-template-columns: auto auto;
+    padding:1rem;
+
 }
 .itemImage{
-    display:flex;
+    /* display:flex; */
     width:3rem;
-    padding:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    display:inline-flex;
 }
-#itemsList{
-    width: 0px;
+.itemName{
+    display:inline-flex;
+    margin:auto;
+    margin-left:0px;
+    font-family: 'Source Code Pro', monospace;
+}
+.itemsList{
+    display:block;
+    padding-inline-start: 0px;
+    /* justify-content: space-between; */
+}
+.blueColor{
+    background-color: #d2e3ec;
+    padding: 3.5rem;
+}
+
+#projectHeader{
+    font-size: 2.5em;
+    font-family: "Rock Salt";
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+#projectHeader:before,
+#projectHeader:after {
+    content: '';
+    border-top: 2px solid;
+    border-color: #e47e5e;
 }
