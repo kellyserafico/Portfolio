@@ -6,6 +6,10 @@ nav{
     box-shadow: 0px 0px 5px #999890;
 }
 
+a { 
+    text-decoration: none;
+    color:black;
+}
 
 #name{
     text-align: center;
@@ -48,6 +52,7 @@ nav{
     margin-left: auto;
     width: fit-content;
     background-color: #d2e3ec;
+    /* background-color: #e47e5e */
     
   
 }
@@ -65,6 +70,7 @@ nav{
     text-align:center;
     font-size:1rem;
     font-family: 'Roboto Mono', monospace;
+    padding:2rem;
 
 
 }
@@ -157,6 +163,7 @@ nav{
 .blueColor{
     background-color: #d2e3ec;
     padding: 3.5rem;
+    /* background-color: #e47e5e */
 }
 
 #projectHeader{
@@ -177,4 +184,12 @@ nav{
     content: '';
     border-top: 2px solid;
     border-color: #e47e5e;
+}
+
+.projectImg{
+    width:30%;
+}
+
+.projectItem{
+    display:grid;
 }
