@@ -1,9 +1,11 @@
 nav{
     background-color: white;
     position:fixed;
-    top: 0;
+    /* top: 0; */
     width:100%;
-    box-shadow: 0px 0px 5px #999890;
+    /* box-shadow: 0px 0px 5px #999890; */
+    /* height:fit-content; */
+
 }
 
 a { 
@@ -24,8 +26,9 @@ a {
     height: 200px;
 }
 #contactButton{
-    display: block;
-    margin-left: auto;
+    float:right;
+    width: 15%;
+    /* margin-right: auto; */
     border-radius:50px;
     cursor: pointer;
     /* padding: 0px 30px; */
@@ -33,6 +36,10 @@ a {
     border-color: #e47e5e;
     border-width: 5px;
     /* border-style: solid; */
+    display:inline;
+    right:10%;
+    
+
 }
 #contactButtonText{
     font-family: "Courier";
@@ -164,6 +171,7 @@ a {
     background-color: #d2e3ec;
     padding: 3.5rem;
     /* background-color: #e47e5e */
+    /* width:100%; */
 }
 
 #projectHeader{
@@ -176,7 +184,9 @@ a {
     align-items: center;
     text-align: center;
     grid-gap: 20px;
-    width: 100%;
+    /* width: 100%; */
+    background-color: white;
+    box-shadow:  0px 0px 2px -2px #999890;
 }
 
 #projectHeader:before,
@@ -191,5 +201,27 @@ a {
 }
 
 .projectItem{
-    display:grid;
+    
+}
+
+.content .sticky-div {
+    position: sticky;
+    top: 0;
+    /* width:100%; */
+}
+
+.BeforeScroll{
+    display:none;
+}
+.AfterScroll{
+    display: inline;
+}
+
+#nameNav{
+    /* display:inline; */
+    /* display:flex; */
+    /* margin:auto;
+    padding: 40px; */
+    left:50%;
+    
 }
