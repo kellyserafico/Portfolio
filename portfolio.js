@@ -1,3 +1,8 @@
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+
+const btn = document.getElementById("confettiButton")
+btn.addEventListener("click", makeConfetti)
+
 $(document).ready(function(){
     //Take your div into one js variable
     var div = $("#nameNav");
@@ -27,3 +32,6 @@ $(document).ready(function(){
    });
   });
 
+  function makeConfetti(){
+    confetti();
+}
