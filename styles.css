@@ -1,11 +1,36 @@
 nav{
     background-color: white;
     position:fixed;
-    /* top: 0; */
     width:100%;
-    /* box-shadow: 0px 0px 5px #999890; */
-    /* height:fit-content; */
+    display:flex;
+    justify-content: center;
+    text-align: center;
 
+}
+
+#nameNav{
+    /* font-size: 3em; */
+    font-family: "Rock Salt";
+    position:absolute;
+}
+
+#contactButton{
+    width: fit-content ;
+    border-radius:50px;
+    cursor: pointer;
+    padding: 0rem 3.2rem;
+    border-color: #e47e5e;
+    border-width: 5px;
+    margin-left:auto;
+    /* display:flex; */
+    white-space:nowrap;
+
+}
+
+#contactButtonText{
+    font-family: "Courier";
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 a { 
@@ -15,6 +40,8 @@ a {
 
 #name{
     text-align: center;
+    font-size: 3em;
+    font-family: "Rock Salt";
 }
 #icon{
     display: block;
@@ -25,55 +52,27 @@ a {
     width: 200px;
     height: 200px;
 }
-#contactButton{
-    float:right;
-    width: 15%;
-    /* margin-right: auto; */
-    border-radius:50px;
-    cursor: pointer;
-    /* padding: 0px 30px; */
-    padding: 0rem 3.2rem;
-    border-color: #e47e5e;
-    border-width: 5px;
-    /* border-style: solid; */
-    display:inline;
-    right:10%;
-    
 
-}
-#contactButtonText{
-    font-family: "Courier";
-    font-size: 1.5rem;
-}
 
-#name{
-    font-size: 3em;
-    font-family: "Rock Salt";
-}
 #topDiv{
     padding: 3.5rem;
-    /* background-color: #d2e3ec; */
 }
 #about{
     margin-right: auto;
     margin-left: auto;
     width: fit-content;
     background-color: #d2e3ec;
-    /* background-color: #e47e5e */
     
   
 }
 #aboutHeader{
     text-align: center;
     font-size: 2em;
-    /* font-family: "Press Start 2P"; */
     font-family: "Courier";
     width: fit-content;
     display:flexbox;
 }
 #aboutDescription{
-    /* margin-right: auto;
-    margin-left: auto; */
     text-align:center;
     font-size:1rem;
     font-family: 'Roboto Mono', monospace;
@@ -150,7 +149,7 @@ a {
 
 }
 .itemImage{
-    /* display:flex; */
+
     width:3rem;
     padding-left:1rem;
     padding-right:1rem;
@@ -165,20 +164,19 @@ a {
 .itemsList{
     display:block;
     padding-inline-start: 0px;
-    /* justify-content: space-between; */
+
 }
 .blueColor{
     background-color: #d2e3ec;
     padding: 3.5rem;
-    /* background-color: #e47e5e */
     /* width:100%; */
 }
 
 #projectHeader{
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: "Rock Salt";
     text-align: center;
-
+    /* margin:0px; */
     display: grid;
     grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
     align-items: center;
@@ -186,7 +184,7 @@ a {
     grid-gap: 20px;
     /* width: 100%; */
     background-color: white;
-    box-shadow:  0px 0px 2px -2px #999890;
+    
 }
 
 #projectHeader:before,
@@ -201,7 +199,7 @@ a {
 }
 
 .projectItem{
-    
+    display:flex;
 }
 
 .content .sticky-div {
@@ -212,16 +210,40 @@ a {
 
 .BeforeScroll{
     display:none;
+    animation: fadeOut 2s;
 }
 .AfterScroll{
     display: inline;
-}
+    animation: fadeIn 2s;
 
-#nameNav{
-    /* display:inline; */
-    /* display:flex; */
-    /* margin:auto;
-    padding: 40px; */
-    left:50%;
-    
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.boxShadow{
+    box-shadow: 0 3px 3px -2px lightgray;
+}
+  .discordImg{
+    width:80px;
+    padding-right:20px;
+    padding-left:20px;
+  }
+
+  #bottomDiv{
+    text-align: center;
+  }
+
+  #discordTag{
+    font-family:"Press Start 2P";
+    font-size: 16px;
+  }
+  
+  .discordDiv{
+    display:block;
+  }
+
+#bottomDiv p{
+    font-family: 'Source Code Pro', monospace;
 }
