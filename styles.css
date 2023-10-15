@@ -160,17 +160,23 @@ a {
     display:grid;
     grid-template-columns: auto auto;
     padding:1rem;
+    margin: auto;
 
 }
 
-#popout1:hover, #popout2:hover, #popout3:hover{
+ul li p{
+    position:relative;
+    top:10px;
+}
+
+ul li p:hover{
     transform: scale(1.1);
 }
 .itemImage{
 
     width:3rem;
     padding-left:1rem;
-    padding-right:1rem;
+    /* padding-right:1rem; */
     display:inline-flex;
 }
 .itemName{
