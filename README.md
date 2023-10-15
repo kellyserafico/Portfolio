@@ -46,15 +46,17 @@ Approximately 12 hours
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-- https://css-tricks.com/snippets/css/typewriter-effect/
+- https://css-tricks.com/snippets/css/typewriter-effect/ (creating typewriter effect)
 
-- https://stackoverflow.com/questions/51045863/how-can-i-make-multiple-on-scroll-fixed-headers-navbars-that-stick-at-the-very-t
+- https://stackoverflow.com/questions/51045863/how-can-i-make-multiple-on-scroll-fixed-headers-navbars-that-stick-at-the-very-t (creating stacked nav bars)
 
-- https://stackoverflow.com/questions/20307555/how-to-make-text-appear-on-scroll-in-html
+- https://stackoverflow.com/questions/20307555/how-to-make-text-appear-on-scroll-in-html (making title appear on nav bar when scroll)
 
-- https://www.dhairyashah.dev/posts/how-to-create-a-confetti-effect-in-html/
+- https://www.dhairyashah.dev/posts/how-to-create-a-confetti-effect-in-html/ (creating confetti effect)
 
-- https://www.w3schools.com/howto/howto_css_contact_form.asp
+- https://www.w3schools.com/howto/howto_css_contact_form.asp (creating the contact form)
+
+- https://formspree.io/ (for making the contact form function properly)
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
