@@ -23,21 +23,21 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (a) Basic features
 
-At least one image, with descriptive alt attribute(s)
-Appropriate headings and paragraph text
-Links to external page(s)
-Multiple pages, with appropriate navigation between them
+- At least one image, with descriptive alt attribute(s)
+- Appropriate headings and paragraph text
+- Links to external page(s)
+- Multiple pages, with appropriate navigation between them
 
 (b) CSS features
 
-Modifying padding and margins to indent content and enhance readability
-Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section.
-Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
+- Modifying padding and margins to indent content and enhance readability
+- Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section.
+- Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
 
 (c) Advanced features
 
-Creating a more complex page layout, such as including a sidebar or navigation bar
-A contact form which leverages HTML forms
+- Creating a more complex page layout, such as including a sidebar or navigation bar
+- A contact form which leverages HTML forms
 
 3. How long, in hours, did it take you to complete this assignment?
 
