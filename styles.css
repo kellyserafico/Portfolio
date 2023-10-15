@@ -27,6 +27,7 @@ nav{
     right: 0;
     position:absolute;
     top:5px;
+    background-color: white;
 
 }
 
@@ -152,6 +153,10 @@ a {
     grid-template-columns: auto auto;
     padding:1rem;
 
+}
+
+#popout1:hover, #popout2:hover, #popout3:hover{
+    transform: scale(1.1);
 }
 .itemImage{
 
@@ -289,4 +294,10 @@ a {
 
 #bottomDiv p{
     font-family: 'Source Code Pro', monospace, Sans-Serif;
+}
+
+#confettiButton{
+    background-color: white;
+    border-color: #e47e5e;
+    border-radius:20%;
 }
