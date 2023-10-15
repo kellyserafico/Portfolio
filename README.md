@@ -38,6 +38,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 - Creating a more complex page layout, such as including a sidebar or navigation bar
 - A contact form which leverages HTML forms
+- Added bonus feature: animation effects + deatiled features such as typewriting effect, popout feature when mouse hovers over links, nav bar replacement (project header replacing main nav bar) and confetti button at bottom of page.
 
 3. How long, in hours, did it take you to complete this assignment?
 
@@ -45,9 +46,20 @@ Approximately 12 hours
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-https://www.w3schools.com/
-https://stackoverflow.com/
+https://css-tricks.com/snippets/css/typewriter-effect/
+
+https://stackoverflow.com/questions/51045863/how-can-i-make-multiple-on-scroll-fixed-headers-navbars-that-stick-at-the-very-t
+
+https://stackoverflow.com/questions/20307555/how-to-make-text-appear-on-scroll-in-html
+
+https://www.dhairyashah.dev/posts/how-to-create-a-confetti-effect-in-html/
+
+https://www.w3schools.com/howto/howto_css_contact_form.asp
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
+N/A
+
 6. Is there anything special we need to know in order to run your code?
+   
+N/A
