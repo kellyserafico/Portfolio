@@ -60,7 +60,7 @@ Approximately 12 hours
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-Gabriel Gibb - had similar ideas for formatting our project section, discussed how to create the grid display and implemented the same display for both our portfolios
+Gabriel Gibb - had similar ideas for formatting our project section, discussed how to create the grid display 
 
 6. Is there anything special we need to know in order to run your code?
    
