@@ -88,7 +88,7 @@ a {
 #aboutDescription{
     text-align:center;
     font-size:1rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace, Sans-Serif;
     padding:2rem;
 
 
