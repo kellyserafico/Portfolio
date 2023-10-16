@@ -6,6 +6,7 @@ nav{
     justify-content: center;
     text-align: center;
     height:100px;
+    z-index:300;
 }
 
 #nameNav{
@@ -184,6 +185,7 @@ ul li p:hover{
     margin:auto;
     margin-left:0px;
     font-family: 'Source Code Pro', monospace, Sans-Serif;
+    z-index:5;
 }
 .itemsList{
     display:block;
